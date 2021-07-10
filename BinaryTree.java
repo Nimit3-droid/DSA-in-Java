@@ -14,7 +14,7 @@ class TreeNode {
 class BinaryTree {
 	TreeNode root;
 
-	// Encodes a tree to a single string.
+	// Encodes  tree to a single string.
 	public static String serialize(TreeNode root)
 	{
 		if (root == null) {
