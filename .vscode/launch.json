@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ManacharsAlgosLongestPallStr",
+            "request": "launch",
+            "mainClass": "StringAlgos.ManacharsAlgosLongestPallStr",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZAlgos",
+            "request": "launch",
+            "mainClass": "StringAlgos.ZAlgos",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixMul",
+            "request": "launch",
+            "mainClass": "numberTheory.MatrixMul",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeFact",
+            "request": "launch",
+            "mainClass": "numberTheory.primeFact",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch RollingHashFunction",
+            "request": "launch",
+            "mainClass": "StringAlgos.RollingHashFunction",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixDiamond",
+            "request": "launch",
+            "mainClass": "PrefixSum.MatrixDiamond",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScanlineAlgoUseCase",
+            "request": "launch",
+            "mainClass": "PrefixSum.ScanlineAlgoUseCase",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch Two_D_arr",
+            "request": "launch",
+            "mainClass": "PrefixSum.Two_D_arr",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch streetLight",
+            "request": "launch",
+            "mainClass": "PrefixSum.streetLight",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        },
+        {
+            "type": "java",
+            "name": "Launch DigitPrimes",
+            "request": "launch",
+            "mainClass": "PrefixSum.DigitPrimes",
+            "projectName": "JavaInterviewQuestions_8ae0ba73"
+        }
+    ]
+}
