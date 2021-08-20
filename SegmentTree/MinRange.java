@@ -1,4 +1,4 @@
-// package SegmentTree;
+package SegmentTree;
 
 import java.util.Scanner;
 

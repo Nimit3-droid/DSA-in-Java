@@ -1,7 +1,11 @@
+package LinearSearch;
+
+import java.util.Scanner;
+
 public class LinearSearch{
-    public static void main(String[] args{}){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int t=s.nextInt();
+        int t=sc.nextInt();
         while(t-->0){
             String s = sc.next();
             int isfirst=-1;

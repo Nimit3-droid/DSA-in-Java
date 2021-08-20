@@ -26,19 +26,19 @@ class Heap{
         }
 
         static  void upheapify(int index){
-                int parent = (index-1)/2;
-                // System.out.println("index " + index + " is " + parent);
-                if(arr[parent]>0){
-                    if(arr[parent] < arr[index]){
-                        int temp=arr[parent];
-                        arr[parent]=arr[index];
-                        arr[index]=temp;
-                        upheapify(parent);
-                    }
+            int parent = (index-1)/2;
+            // System.out.println("index " + index + " is " + parent);
+            if(arr[parent]>0){
+                if(arr[parent] < arr[index]){
+                    int temp=arr[parent];
+                    arr[parent]=arr[index];
+                    arr[index]=temp;
+                    upheapify(parent);
                 }
-
-
             }
+
+
+        }
 
         static void insert(int ele){
             arr[size]=ele;
@@ -66,15 +66,9 @@ class Heap{
         while(start<n-k+1){
             for(int curr=start;curr<k+start;curr++){
                 insert(arri[curr]);
-    
             }
             System.out.print(delRoot()+ " ");
             start++;
-
         }
-
-
-
-
     }
 }

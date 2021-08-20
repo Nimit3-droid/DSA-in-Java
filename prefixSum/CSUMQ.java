@@ -1,4 +1,4 @@
-package prefixSum;
+package PrefixSum;
 
 import java.util.Scanner;
 

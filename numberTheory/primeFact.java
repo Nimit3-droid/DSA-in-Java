@@ -29,22 +29,22 @@ public class primeFact {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        long n = sc.nextLong();
-        for (int i = 2; i * i <= n; i++) {
-            if (n % i == 0) {
-                int count = 0;
-                while (n % i == 0) {
-                    count++;
-                    n /= i;
-                }
-                System.out.println(i + "^" + count);
-            }
-        }
-        // if n>0 => it is prime
-        if (n > 0) {
-        System.out.println(n + "^1");
-        }
+        // Scanner sc = new Scanner(System.in);
+        // long n = sc.nextLong();
+        // for (int i = 2; i * i <= n; i++) {
+        //     if (n % i == 0) {
+        //         int count = 0;
+        //         while (n % i == 0) {
+        //             count++;
+        //             n /= i;
+        //         }
+        //         System.out.println(i + "^" + count);
+        //     }
+        // }
+        // // if n>0 => it is prime
+        // if (n > 0) {
+        // System.out.println(n + "^1");
+        // }
 
         primefactUsingSeive(100);
     }
