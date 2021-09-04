@@ -1,6 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "StringAlgos",
+        "Matrix",
+        "Graph",
         "DP",
-        "Matrix"
+        "Array",
+        "Backtracking"
     ]
 }
