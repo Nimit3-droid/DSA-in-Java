@@ -26,7 +26,7 @@ public class edge_cut_algo {
             if(dis[it]==-1){
                 dfsUtil(adj, it, i, dis, low, timer);
                 low[i]=Math.min(low[i], low[it]);
-                if(low[it]>dis[i]) System.out.println(it+ " -> " + i);
+                if(low[it]>dis[i]) System.out.println(it+ " ->  " + i);
             }else{
                 low[i]=Math.min(low[i], dis[it]);
             }

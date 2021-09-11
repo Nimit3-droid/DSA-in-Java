@@ -4,7 +4,9 @@
         "Matrix",
         "Graph",
         "DP",
+        "BinarySearch",
+        "Backtracking",
         "Array",
-        "Backtracking"
+        ""
     ]
 }

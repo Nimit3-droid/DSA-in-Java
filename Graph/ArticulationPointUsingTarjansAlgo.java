@@ -31,6 +31,7 @@ public class ArticulationPointUsingTarjansAlgo {
             if(it==parent) continue;
             if(dis[it]==-1){
                 dfsUtil(it, i, adj, timer, dis, low, ap);
+                children++;
                 low[i]=Math.min(low[i], low[it]);
                 //if root node 
                 if(parent==-1 && children>1) ap[i]=true;

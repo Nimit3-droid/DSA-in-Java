@@ -29,7 +29,7 @@ public class Tarjans_strongly_connected_components_algorithm {
                 dfsUtil(adj, it, dis, low, isInStack,stack, timer);
                 low[i]=Math.min(low[i], low[it]);
             }else if(isInStack[it]){
-                //backedge
+                
                 low[i]=Math.min(low[i], dis[it]);
             }
         }
