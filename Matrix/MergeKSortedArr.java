@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 class Node {
@@ -11,9 +12,9 @@ class Node {
     }
 }
 class Heap{
-     Node heaparr[];
-     int size = 0;
-     int n;
+     private Node heaparr[];
+     private int size = 0;
+     private int n;
      Heap(int n){
          this.n = n;
         heaparr=new Node[n];
