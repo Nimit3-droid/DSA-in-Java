@@ -1,3 +1,4 @@
+package BinaryTree;
 import java.util.Scanner;
 import java.util.Stack;
 class Node {

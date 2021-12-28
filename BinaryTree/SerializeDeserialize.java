@@ -1,3 +1,4 @@
+package BinaryTree;
 // A JAVA program to demonstrate serialization and
 // deserialiation of Binary Tree
 import java.util.*;
@@ -11,7 +12,7 @@ class TreeNode {
 	TreeNode(int x) { val = x; }
 }
 
-class BinaryTree {
+class SerializeDeserialize {
 	TreeNode root;
 
 	// Encodes  tree to a single string.
@@ -82,7 +83,7 @@ class BinaryTree {
 	public static void main(String args[])
 	{
 		// Let us construct a tree shown in the above figure
-		BinaryTree tree = new BinaryTree();
+		SerializeDeserialize tree = new SerializeDeserialize();
 		tree.root = new TreeNode(20);
 		tree.root.left = new TreeNode(8);
 		tree.root.right = new TreeNode(22);

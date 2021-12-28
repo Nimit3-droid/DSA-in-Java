@@ -1,6 +1,8 @@
 
 import java.util.*;
 
+import BinaryTree.Node;
+
 class Node {
     int value;
     int index;
