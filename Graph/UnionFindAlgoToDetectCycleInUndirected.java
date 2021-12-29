@@ -1,4 +1,12 @@
+class Edges{
+    int src,dest;
+    Edges(int src,int dest){
+        this.src = src;
+        this.dest = dest;
+    }
+}
 public class UnionFindAlgoToDetectCycleInUndirected {
+    
     public int Findparent(int parent[],int v) {
         if(parent[v]==-1){
             return v;

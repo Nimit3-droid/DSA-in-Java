@@ -26,10 +26,10 @@ public class UnionFindAlgo {
 
     }
     public  void union(ParentRank set[],int p1,int p2){
-        // int x=findParent(set,p1);
-        // int y=findParent(set,p2);
-        int x=p1;
-        int y=p2;
+        int x=findParent(set,p1);
+        int y=findParent(set,p2);
+        // int x=p1;
+        // int y=p2;
         if(set[x].rank<set[y].rank){
             set[x].parent=y;
         }else if(set[x].rank>set[y].rank){

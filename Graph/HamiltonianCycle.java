@@ -30,6 +30,7 @@ public class HamiltonianCycle {
         };
         path(mat,2,visited,2,"");
         System.out.println(ans);
+        ans.clear();
         path(mat2,2,visited,2,"");
         System.out.println(ans);
     }

@@ -14,12 +14,12 @@ public class Dijkestra{
         }
         return minIndex;
     }
-    public static int [] shortestPath(int mat[][],int s){
+    public static int [] shortestPath(int mat[][],int root){
         int n=mat.length;
         int spt[]=new int[n];
         Arrays.fill(spt,Integer.MAX_VALUE);
         boolean found[]=new boolean[n];
-        spt[s]=0;
+        spt[root]=0;//initilize shortest distance from root node
         for(int i=0;i<n-1;i++){
             int u=findMin(spt,found);
             found[u]=true;
@@ -43,7 +43,7 @@ public class Dijkestra{
                                       { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
                                       { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
                                       
-        int arr[]=shortestPath(graph,0);
+        int arr[]=shortestPath(graph,8);
         for(int i=0;i<arr.length; i++){
             System.out.println(i+" "+arr[i]+" ");
         }

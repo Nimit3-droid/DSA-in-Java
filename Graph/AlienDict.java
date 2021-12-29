@@ -23,13 +23,19 @@ public class AlienDict{
                 
             }
         }
+        int k=0;
         for(ArrayList<Integer> x: mat){
-            System.out.println(x);
+
+            System.out.print(k+ " : ");
+            for(int i=0;i<x.size();i++){
+                System.out.println((char)(x.get(i) + 'a'));
+            }
+            k++;
         }
         KahnTopoSort ob=new KahnTopoSort();
         ArrayList<Integer> ans=ob.tpsort(mat);
         for(int c : ans){
-            System.out.println((char)(c+'a'));
+            System.out.print((char)(c+'a'));
         }
     }
     

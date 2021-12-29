@@ -1,9 +1,7 @@
 package Heap;
 import java.util.*;
 
-import override;
 class MyComparator implements Comparator<Integer>{
-    @override
     public int compare(Integer a, Integer b) {
         return a.compareTo(b);
     }

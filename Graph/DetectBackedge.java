@@ -2,8 +2,10 @@
 import java.util.*;
 
 public class DetectBackedge {
+    //it detectCycle in directed graph
     public boolean dfs(ArrayList<ArrayList<Integer>> adj,int n){
         boolean visited[]=new boolean[n];
+
         boolean recursionStack[]=new boolean[n];
         for(int i=0;i<n;i++){
             if(!visited[i]){
@@ -16,6 +18,7 @@ public class DetectBackedge {
     }
     public boolean dfsutil(ArrayList<ArrayList<Integer>> adj,boolean visited[],boolean recursionStack[], int i){
         //true=>cycle
+        //if a visited node is already present in recursion stack it means we hava a back edge => cycle
         if(recursionStack[i]==true){
             return true;
         }
