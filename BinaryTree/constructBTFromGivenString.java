@@ -53,6 +53,6 @@ public class constructBTFromGivenString{
         Scanner sc=new Scanner(System.in);
         String str=sc.next();
         printTree(convetToTree(str,0,str.length()-1));
-
+        sc.close();
     }
 }

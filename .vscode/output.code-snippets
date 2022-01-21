@@ -1,0 +1,9 @@
+{
+	"output": {
+		"prefix": "out",
+		"body": [
+		  "FileWriter fw = new FileWriter(new File(\"output.txt\"));"
+		],
+		"description": "output"
+	  }
+}

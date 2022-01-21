@@ -4,7 +4,7 @@ import java.util.*;
 public class Graph {
     public static void main(String args[]){
 
-        int n = 4;
+        int n =6;
         ArrayList<ArrayList<Integer> > adj = new ArrayList<ArrayList<Integer> >();
 		
 		for (int i = 0; i < n; i++) 
@@ -25,7 +25,7 @@ public class Graph {
 
 
         // undirected
-        // 0 - 1 - 3 - 4    
+        // 0 - 1 - 3 - 4 - 5    
         // \  /
         //  2
         adj.get(0).add(1);
@@ -37,13 +37,17 @@ public class Graph {
 		adj.get(1).add(2);
 		adj.get(2).add(1);
 
-		// adj.get(1).add(3);
-		// adj.get(3).add(1);
+		adj.get(1).add(3);
+		adj.get(3).add(1);
 
-		// adj.get(3).add(4);
-		// adj.get(4).add(3);
-        adj.get(0).add(3);
-		adj.get(3).add(0);
+		adj.get(3).add(4);
+		adj.get(4).add(3);
+
+        adj.get(4).add(5);
+		adj.get(5).add(4);
+
+        // adj.get(0).add(3);
+		// adj.get(3).add(0);
 
         //DAC
         // adj.get(5).add(2);
@@ -63,8 +67,8 @@ public class Graph {
         // edge_cut_algo eca=new edge_cut_algo();
         // eca.dfs(adj,n);
 
-        ArticulationPointUsingTarjansAlgo Ap=new ArticulationPointUsingTarjansAlgo();
-        Ap.dfs(adj,n);
+        // ArticulationPointUsingTarjansAlgo Ap=new ArticulationPointUsingTarjansAlgo();
+        // Ap.dfs(adj,n);
 
         // kosaraju_strongly_connected_components_algorithm scck=new kosaraju_strongly_connected_components_algorithm();
         // scck.dfs(adj, n);
@@ -83,8 +87,9 @@ public class Graph {
         
         // KahnTopoSort tp=new KahnTopoSort();
         // System.out.println(tp.tpsort(adj));
-        // WelshPowellAlgoForVertexColouring obj=new WelshPowellAlgoForVertexColouring();
-        // HashMap<Integer,Integer> color = obj.color(adj, n);
-        // System.out.println(color);
+
+        WelshPowellAlgoForVertexColouring obj=new WelshPowellAlgoForVertexColouring();
+        HashMap<Integer,Integer> color = obj.color(adj, n);
+        System.out.println(color);
     }
 }

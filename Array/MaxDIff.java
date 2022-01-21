@@ -35,6 +35,7 @@ public class MaxDIff {
 
         }
         System.out.println(maxdiff);
+        sc.close();
     }
     
 }

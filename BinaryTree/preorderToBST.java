@@ -11,7 +11,7 @@ public class preorderToBST {
         int index[]=new int[]{0};
         TreeNode root=buildBST(arr,index, Integer.MAX_VALUE);
         BT.preOrderPrint(root);
-        
+        sc.close();
     }
 
     private static TreeNode buildBST(int[] arr,int index[],int maxBound) {

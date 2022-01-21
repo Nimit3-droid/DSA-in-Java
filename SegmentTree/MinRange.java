@@ -40,5 +40,6 @@ public class MinRange {
             int a =sc.nextInt(), b=sc.nextInt();
             System.out.println(query(1,a-1,b-1,0,n-1));
         }
+        sc.close();
     }
 }

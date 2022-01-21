@@ -35,6 +35,7 @@ public class RabinKrapPatternSearch {
         Scanner sc=new Scanner(System.in);
         String text = sc.nextLine() , pattern = sc.next();
         rabinKrap(text,pattern);
+        sc.close();
     }
     
 }

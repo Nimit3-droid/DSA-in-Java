@@ -21,6 +21,7 @@ public class RandomPickWeight {
         answerIndex= Math.abs(Arrays.binarySearch(probability, Math.random())) - 1;
         System.out.println(answerIndex);
         System.out.println(Math.random());
+        sc.close();
     }
 }
 

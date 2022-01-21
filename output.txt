@@ -1,0 +1,5 @@
+Minimum cost is 1
+apple 
+is a 
+great 
+fruit 

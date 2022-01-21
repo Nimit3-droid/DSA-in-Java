@@ -36,6 +36,7 @@ public class LCS {
         System.out.println(maxLen);
         maxLen=usingDp(s1,s2,s1.length(),s2.length());
         System.out.println(maxLen);
+        sc.close();
     }
     
 }

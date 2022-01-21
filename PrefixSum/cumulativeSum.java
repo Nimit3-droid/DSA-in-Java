@@ -22,5 +22,6 @@ public class cumulativeSum{
             int b=sc.nextInt();
             System.out.println(ps[b+1]-ps[a]);
         }
+        sc.close();
     }
 }

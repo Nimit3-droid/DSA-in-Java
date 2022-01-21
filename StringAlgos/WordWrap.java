@@ -1,3 +1,8 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
 /* Given a sequence of words, and a limit on the number of characters that can be put 
 * in one line (line width). Put line breaks in the given sequence such that the 
 * lines are printed neatly
@@ -27,7 +32,7 @@
 public class WordWrap {
     
     //n^2   dp
-    public String justify(String words[], int width) {
+    public String justify(String words[], int width) throws IOException {
         
            int cost[][] = new int[words.length][words.length];
              
@@ -72,9 +77,11 @@ public class WordWrap {
            }
            int i = 0;
            int j;
-           
-           System.out.println("Minimum cost is " + minCost[0]);
-           System.out.println("\n");
+           FileWriter fw = new FileWriter(new File("output.txt"));
+           fw.write("Minimum cost is " + minCost[0]+"\n");
+           fw.close();
+        //    System.out.println("Minimum cost is " + minCost[0]);
+        //    System.out.println("\n");
            //finally put all words with new line added in 
            //string buffer and print it.
            StringBuilder builder = new StringBuilder();
@@ -90,10 +97,20 @@ public class WordWrap {
            return builder.toString();
        }
        
-       public static void main(String args[]){
-           String words1[] = {"Tushar","likes","to","write","code","at", "free", "time"};
+       public static void main(String args[]) throws IOException{
+           Scanner sc = new Scanner(new File("input.txt"));        
+           int n = sc.nextInt();
+           String words1[] = new String[n];
+           for(int i=0;i<n;i++) {
+               words1[i]=sc.next();
+           }
+           int k=sc.nextInt();
+           sc.close();
            WordWrap awl = new WordWrap();
-           System.out.println(awl.justify(words1, 12));
+           FileWriter fw = new FileWriter(new File("output.txt"),true);
+           fw.write(awl.justify(words1, k));
+           fw.close();
+        //    System.out.println(awl.justify(words1, k));
        }
    
 }

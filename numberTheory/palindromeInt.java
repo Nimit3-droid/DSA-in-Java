@@ -6,6 +6,7 @@ public class palindromeInt {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int A=sc.nextInt();
+        sc.close();
         if(A<0) System.out.println(0);
         if(A>=0 && A<=9) System.out.println(1);
         int d=1;

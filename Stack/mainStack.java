@@ -1,6 +1,6 @@
 package Stack;
 
-public class main {
+public class mainStack {
     public static void main(String[] args){
         LRUCache ch=new LRUCache(1);
         //6 1 S 2 1 S 2 2 G 2 S 1 1 S 4 1 G 1

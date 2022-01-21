@@ -52,7 +52,7 @@ public class StringMultiplication {
 		String num2 = sc.next();
 
         System.out.println(multiply(num1,num2));
-        
+        sc.close();
 	
 	}
 }

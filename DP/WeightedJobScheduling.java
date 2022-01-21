@@ -89,5 +89,6 @@ public class WeightedJobScheduling {
         dp[0]=0;
         weigthtedSchedule(jobs,n,dp);
         System.out.println(dp[n]);
+        sc.close();
     }
 }

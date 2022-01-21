@@ -9,6 +9,7 @@ public class paintersPartition {
             a[i] = sc.nextInt();
         }
         int b = sc.nextInt();
+        sc.close();
         if(b>n){
             System.out.println("-1");
             return ;

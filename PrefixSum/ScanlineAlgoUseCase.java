@@ -25,6 +25,7 @@ public class ScanlineAlgoUseCase{
             int m1=sc.nextInt();
             System.out.println(arr2[m1]);
         }
+        sc.close();
 
     }
 }

@@ -221,6 +221,7 @@ public class TrieImplement {
         for(int i=0; i<n; i++){
             arr[i]=sc.next();
         }
+        sc.close();
         Trie root=new Trie();
         root.insert("apple");
         System.out.println(root.search("apple"));

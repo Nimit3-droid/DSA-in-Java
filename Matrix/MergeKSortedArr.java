@@ -1,8 +1,6 @@
 
 import java.util.*;
 
-import BinaryTree.Node;
-
 class Node {
     int value;
     int index;
@@ -106,7 +104,7 @@ public class MergeKSortedArr {
             }
         }
         mergeK(mat,m,n);
-        
+        sc.close();
 
     }
 

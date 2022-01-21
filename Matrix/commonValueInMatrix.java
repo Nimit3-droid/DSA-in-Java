@@ -68,7 +68,7 @@ public class commonValueInMatrix {
             System.out.print(i+ " ");
         }
         
-
+        sc.close();
     }
     
 }

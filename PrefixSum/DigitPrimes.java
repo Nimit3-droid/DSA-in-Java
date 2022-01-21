@@ -53,6 +53,7 @@ public class DigitPrimes {
             seive();
             System.out.println(dPrime[b] - dPrime[a - 1]);
         }
+        sc.close();
     }
 
 }

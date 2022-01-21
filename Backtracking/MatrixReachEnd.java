@@ -44,5 +44,6 @@ public class MatrixReachEnd {
         }
         int maxTime=sc.nextInt();
         reachTheEnd(mat,maxTime);
+        sc.close();
     }
 }

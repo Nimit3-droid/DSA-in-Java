@@ -1,4 +1,4 @@
-package StringAlgos;
+// package StringAlgos;
 public class ZAlgos{
     //  prints all occurrences of pattern in text using
     // Z algo

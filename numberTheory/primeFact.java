@@ -1,7 +1,5 @@
 package numberTheory;
 
-import java.util.Scanner;
-
 public class primeFact {
     public static void primefactUsingSeive(int k) {
         int arr[] = new int[100000001];

@@ -1,4 +1,4 @@
-package StringAlgos;
+// package StringAlgos;
 
 public class RollingHashFunction {
     static long prime = 31, primePower = 1, value = 0, MOD=100000007;

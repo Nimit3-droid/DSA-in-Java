@@ -51,6 +51,7 @@ public class Knight {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(), s1 = sc.nextInt(), s2 = sc.nextInt(), f1 = sc.nextInt(), f2 = sc.nextInt();
         minSteps(n, s1, s2, f1, f2);
+        sc.close();
     }
 
 }

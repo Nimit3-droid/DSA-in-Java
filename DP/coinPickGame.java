@@ -39,6 +39,7 @@ public class coinPickGame{
         for(int i=0; i<n; i++){
             arr[i]=sc.nextInt();
         }
+        sc.close();
         int dp[][]=new int[n+1][n+1];
         System.out.println(coinPick(arr,n,0,n-1,dp));
     }

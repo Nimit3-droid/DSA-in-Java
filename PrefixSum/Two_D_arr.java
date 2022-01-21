@@ -77,6 +77,7 @@ public class Two_D_arr {
             ans = d[r2][c2] - d[r1 - 1][c2] - d[r2][c1 - 1] + d[r1 - 1][c1 - 1];
             System.out.println(ans);
         }
+        sc.close();
 
     }
 }

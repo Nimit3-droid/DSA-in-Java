@@ -14,6 +14,7 @@ public class streetLight {
             arr[Math.max(0,a-b)]++;
             arr[Math.min(p+1,a+b+1)]--;
         }
+        sc.close();
         for(int i=1;i<=p;i++){
             arr[i]+=arr[i-1];
         } 

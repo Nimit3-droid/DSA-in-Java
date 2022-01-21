@@ -27,6 +27,6 @@ public class WordBreak {
         }
         String sentence = sc.next();
         System.out.println(wordbreakDP(sentence,dictionary));
-        
+        sc.close();
     }   
 }

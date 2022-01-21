@@ -46,6 +46,7 @@ public class Ceil {
             arr[i]=sc.nextInt();
         }
         System.out.println(binarySearch(arr, -1, n-1, 3));
+        sc.close();
     }
     
 }

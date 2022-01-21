@@ -38,6 +38,7 @@ public class HuffmanCoding {
             chararray[i]=sc.next().charAt(0);
             arr[i]=sc.nextInt();
         }
+        sc.close();
         PriorityQueue<HuffmanNode> pq=new PriorityQueue<>(n,new Comparator<HuffmanNode>(){
             public int compare(HuffmanNode n1,HuffmanNode n2){
                 return n1.f-n2.f;

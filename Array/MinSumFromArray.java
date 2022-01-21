@@ -19,5 +19,6 @@ public class MinSumFromArray extends sumOfTwoLargeNumbers {
             }
         }
         System.out.println(FindBigSum(even,odd));
+        sc.close();
     }
 }

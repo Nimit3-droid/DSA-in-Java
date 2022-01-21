@@ -27,6 +27,7 @@ public class UnboundedKnapscak {
         for(int i=0;i<n;i++){
             wt[i]=sc.nextInt();
         }
+        sc.close();
         System.out.println(unboundedKnapsack(w, n, val, wt));
     }
 }

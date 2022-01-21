@@ -8,9 +8,9 @@ public class searchInRotatedArray {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        int b = sc.nextInt();
+        // int b = sc.nextInt();
         System.out.println(find(arr));
-        
+        sc.close();
     }
 
     private static int find(int[] a) {
@@ -29,6 +29,7 @@ public class searchInRotatedArray {
                 System.out.println("high <- ");
             }
         }
+        
         return n-1;
     }
 

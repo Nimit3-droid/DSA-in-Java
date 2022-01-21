@@ -48,7 +48,7 @@ public class stock2Diff{
             }
             profit[i]=Math.max(profit[i-1],profit[i]+arr[i]-minprice);
         }
-        
+        sc.close();
         System.out.println(profit[n-1]);
     }
 }

@@ -40,6 +40,7 @@ public class sumOfTwoLargeNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.next(),str2 = sc.next();
+        sc.close();
         // String str1 = "1234", str2 = "456";
         System.out.println(FindBigSum(str1, str2));
 

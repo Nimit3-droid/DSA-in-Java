@@ -9,6 +9,7 @@ public class AlienDict{
         for(int i=0;i<n;i++){
             words.add(sc.next());
         }
+        sc.close();
         ArrayList<ArrayList<Integer>> mat=new ArrayList<ArrayList<Integer>>();
         for(int i=0;i<alpha;i++){
             mat.add(new ArrayList<Integer>());

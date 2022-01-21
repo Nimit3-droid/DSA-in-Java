@@ -33,6 +33,7 @@ public class MaximumPathSumInMatrix {
                 mat[i][j]=sc.nextInt();
             }
         }
+        sc.close();
         System.out.println(maximumPath(n,mat));
     }
     

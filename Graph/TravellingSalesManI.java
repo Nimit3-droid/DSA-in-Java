@@ -3,6 +3,8 @@ public class TravellingSalesManI {
     //tc=n*n(2^n)
     static int n;
     static int allvisited;
+    //mask is city visited only
+    // pos is id of city which we are visiting next 
     public static int tsp(int dist[][],int dp[][],int mask,int pos){
         if( mask == allvisited){
             return dist[pos][0];
@@ -39,7 +41,6 @@ public class TravellingSalesManI {
         for(int i=0;i<dp.length;i++){
             Arrays.fill(dp[i],-1);
         }
-
         System.out.println(tsp(dist,dp,1, 0));
     }
 }

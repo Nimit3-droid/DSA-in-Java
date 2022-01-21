@@ -7,6 +7,8 @@ public class nextGreatestInt{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String A=sc.next();
+        
+        sc.close();
         char []c=A.toCharArray();
         int n=A.length();
         //find first i-1 which is c[i-1]<c[i]

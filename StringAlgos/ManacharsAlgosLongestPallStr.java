@@ -1,4 +1,4 @@
-package StringAlgos;
+// package StringAlgos;
 
 public class ManacharsAlgosLongestPallStr {
     static void findLongestPalindromicString(String text) 

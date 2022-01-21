@@ -50,6 +50,6 @@ public class MatrixMul {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

@@ -25,7 +25,7 @@ public class AllTraversal {
         TreeNode root = BT.constructBinaryTree(arr,0);
         printAllTraversals(root);
 
-
+        sc.close();
 
     }
     public static void printAllTraversals(TreeNode root) {

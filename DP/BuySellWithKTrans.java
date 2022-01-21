@@ -23,6 +23,7 @@ public class BuySellWithKTrans{
         for(int i=0; i<n; i++){
             price[i]=sc.nextInt();
         }
+        sc.close();
         System.out.println(generateProfit(price,n,k));
     }
 }

@@ -40,6 +40,7 @@ class ReverseInSize
             printList(res);
             System.out.println();
         }
+        sc.close();
     }
     
     public static void printList(Node node)

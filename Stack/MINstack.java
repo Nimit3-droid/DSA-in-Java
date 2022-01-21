@@ -13,7 +13,7 @@ public class MINstack {
         st.push(4);System.out.println( st.getMin());
         st.push(3);System.out.println( st.getMin());
         st.pop();
-        System.out.println( st.peek());
+        System.out.println( st.top());
     }
     
 }

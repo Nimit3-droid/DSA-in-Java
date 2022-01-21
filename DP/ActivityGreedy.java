@@ -1,7 +1,7 @@
 
 // Java program for activity selection problem
 // when input activities may not be sorted.
-import java.io.*;
+// import java.io.*;
 import java.util.*;
 
 // A job has a start time, finish time and profit.

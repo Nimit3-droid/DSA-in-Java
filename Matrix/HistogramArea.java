@@ -32,5 +32,6 @@ public class HistogramArea {
             System.out.println(maxArea);
         }
         System.out.println(maxArea);
+        sc.close();
     }
 }

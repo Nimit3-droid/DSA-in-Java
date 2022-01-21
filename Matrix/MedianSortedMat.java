@@ -48,6 +48,7 @@ public class MedianSortedMat {
                 mat[i][j]=sc.nextInt();
             }
         }
+        sc.close();
         System.out.println(findMedian(mat,m,n));
     }
     

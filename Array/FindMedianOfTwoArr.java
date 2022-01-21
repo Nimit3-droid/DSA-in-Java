@@ -43,6 +43,7 @@ public class FindMedianOfTwoArr {
         // using binary search
         double median = medianOfTwoArr(arr1,arr2,n,m);
         System.out.println(median);
+        sc.close();
 
     }
     

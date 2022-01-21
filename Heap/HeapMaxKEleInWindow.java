@@ -62,7 +62,7 @@ class Heap{
             arri[i]=sc.nextInt();
         }
         // int ans[]=new int[n-k+1];
-        
+        sc.close();
         int start=0;
         while(start<n-k+1){
             for(int curr=start;curr<k+start;curr++){

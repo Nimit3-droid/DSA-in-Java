@@ -65,6 +65,6 @@ public class fib {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println((int)solve(n));
-
+        sc.close();
     }
 }

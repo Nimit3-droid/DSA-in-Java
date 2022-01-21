@@ -1,6 +1,6 @@
 import java.util.*;
 public class LongestPrefixWhichIsAlsoSuffix {
-    //namive approach n^2
+    //naive approach n^2
     public static int LCS(String s) {
         int n=s.length();
         int j=(n+1)/2;
@@ -16,8 +16,8 @@ public class LongestPrefixWhichIsAlsoSuffix {
 
         return i;
     }
-
-    // o(N)
+    //        /\
+    // o(N) //||\\
     public static int LCS_DP(String s){
         int n=s.length();
         int dp[]=new int[n];
@@ -52,6 +52,7 @@ public class LongestPrefixWhichIsAlsoSuffix {
         String str=sc.nextLine();
         System.out.println(LCS(str));
         System.out.println(LCS_DP(str));
+        sc.close();
     }
     
 }

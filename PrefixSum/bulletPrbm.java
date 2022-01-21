@@ -13,6 +13,7 @@ public class bulletPrbm {
                 arr[i]=sc.nextInt();
 
             }
+            sc.close();
             long sum=0;
             for(int i=0;i<n;i++){
                 if(arr[i]==-1 && sum!=0){

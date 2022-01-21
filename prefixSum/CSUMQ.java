@@ -23,6 +23,7 @@ public class CSUMQ {
 
             q--;
         }
+        sc.close();
         
     }
 }

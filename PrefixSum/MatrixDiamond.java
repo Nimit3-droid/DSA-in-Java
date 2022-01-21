@@ -42,5 +42,6 @@ public class MatrixDiamond {
             }
         System.out.println(ans);                
         }
+        sc.close();
     }
 }

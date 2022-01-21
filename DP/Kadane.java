@@ -43,6 +43,7 @@ static int maxSubArraySum(int a[],int size)
         for(int i=0; i<n; i++){
             arr[i]=sc.nextInt();
         }
+        sc.close();
         System.out.println(contigiousMaxSum(arr,n));
         System.out.println(maxSubArraySum(arr,n));
     }
