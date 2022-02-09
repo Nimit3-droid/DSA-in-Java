@@ -7,6 +7,7 @@ public class MaxDIff {
         for(int i=0;i<n;i++) {
             arr[i]=sc.nextInt();
         }
+        
         // int minSoFar=arr[0];
         // int maxdiff=0;
         // for(int i=0; i<n; i++) {

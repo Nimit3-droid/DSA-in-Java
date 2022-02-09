@@ -24,9 +24,7 @@ import java.util.Scanner;
 * 
 * Space complexity is O(n^2)
 * Time complexity is O(n^2)
-* 
-* References:
-* http://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/
+
 */
 
 public class WordWrap {
@@ -55,14 +53,32 @@ public class WordWrap {
                        cost[i][j] = (int)Math.pow(cost[i][j], 2);
                    }
                }
+            }
+            FileWriter fw = new FileWriter(new File("output.txt"));
+           for(int i = 0;i<words.length;i++){
+               for(int j = 0;j< words.length; j++){
+                   if(cost[i][j]==Integer.MAX_VALUE) {
+                       fw.write("- ");
+                       continue;
+                   }
+                   fw.write(cost[i][j]+" ");
+                // System.out.println(cost[i][j]+" ");
+               }
+               fw.write("\n");
+            //    System.out.println();
            }
-           
+        //    1 - - - - 
+        //    0 16 4 - - 
+        //    0 0 25 0 - 
+        //    0 0 0 4 - 
+        //    0 0 0 0 9
+        // 
            //minCost from i to len is found by trying
            //j between i to len and checking which
-           //one has min value
+           //one has min value  
            int minCost[] = new int[words.length];
            int result[] = new int[words.length];
-           for(int i = words.length-1; i >= 0 ; i--){
+           for(int i = words.length-1; i >= 0; i--){
                minCost[i] = cost[i][words.length-1];
                result[i] = words.length;
                for(int j=words.length-1; j > i; j--){
@@ -75,9 +91,11 @@ public class WordWrap {
                    }
                }
            }
+           for(int k=0;k<words.length;k++){
+               fw.write(minCost[k]+" === "+result[k]+"\n");
+           }
            int i = 0;
            int j;
-           FileWriter fw = new FileWriter(new File("output.txt"));
            fw.write("Minimum cost is " + minCost[0]+"\n");
            fw.close();
         //    System.out.println("Minimum cost is " + minCost[0]);

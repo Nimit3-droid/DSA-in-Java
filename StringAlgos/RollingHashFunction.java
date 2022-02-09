@@ -1,3 +1,8 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
 // package StringAlgos;
 
 public class RollingHashFunction {
@@ -5,15 +10,24 @@ public class RollingHashFunction {
 
     public static long getHash(String key) {
         for (char c : key.toCharArray()) {
-            value =(value + ((c - 'a' + 1) * primePower)%MOD)%MOD;
+            value =(value + (c * primePower)%MOD)%MOD;
             primePower =(primePower * prime)%MOD;
 
         }
         return value;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(new File("input.txt"));
+        
+        // System.out.println();
+        FileWriter fw = new FileWriter(new File("output.txt"));
+        int n=sc.nextInt();
+        for(int i = 0; i <n;i++){
 
-        System.out.println(getHash("a a "));
+            fw.write(getHash(sc.next())+"\n");
+        }
+        sc.close();
+        fw.close();
     }
 }
