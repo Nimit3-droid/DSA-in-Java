@@ -151,5 +151,7 @@ public class Map<K,V> {
 		System.out.println(map.remove("this"));
 		
 	}
+	public class Entry<T1, T2> {
+	}
 
 }

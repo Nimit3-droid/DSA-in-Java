@@ -88,8 +88,12 @@ public class Graph {
         // KahnTopoSort tp=new KahnTopoSort();
         // System.out.println(tp.tpsort(adj));
 
-        WelshPowellAlgoForVertexColouring obj=new WelshPowellAlgoForVertexColouring();
-        HashMap<Integer,Integer> color = obj.color(adj, n);
-        System.out.println(color);
+        // WelshPowellAlgoForVertexColouring obj=new WelshPowellAlgoForVertexColouring();
+        // HashMap<Integer,Integer> color = obj.color(adj, n);
+        // System.out.println(color);
+
+        MColouring m=new MColouring();
+        
+        
     }
 }

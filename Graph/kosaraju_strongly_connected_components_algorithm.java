@@ -32,7 +32,8 @@ public class kosaraju_strongly_connected_components_algorithm {
                 System.out.println();
             }
         }
-    }
+    } 
+    
 
     private void dfsREV(int i, boolean[] isvisited, ArrayList<ArrayList<Integer>> transpose) {
         isvisited[i]=true;

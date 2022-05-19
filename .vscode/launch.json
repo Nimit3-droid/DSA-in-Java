@@ -1,0 +1,861 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch E2",
+            "request": "launch",
+            "mainClass": "CP.CPLIST.Prime.E2",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch E1",
+            "request": "launch",
+            "mainClass": "CP.CPLIST.Prime.E1",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MST_UnionFind",
+            "request": "launch",
+            "mainClass": "MST_UnionFind",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "InterviewBit.Solution",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortMap",
+            "request": "launch",
+            "mainClass": "HashMaps.SortMap",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Avl",
+            "request": "launch",
+            "mainClass": "AVL.Avl",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ActivityGreedy",
+            "request": "launch",
+            "mainClass": "ActivityGreedy",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlienDict",
+            "request": "launch",
+            "mainClass": "AlienDict",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllPossiblePalindromePartitions",
+            "request": "launch",
+            "mainClass": "AllPossiblePalindromePartitions",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllSubseqOfStr",
+            "request": "launch",
+            "mainClass": "AllSubseqOfStr",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AssemblyLine",
+            "request": "launch",
+            "mainClass": "AssemblyLine",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllTraversal",
+            "request": "launch",
+            "mainClass": "BinaryTree.AllTraversal",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintCousions",
+            "request": "launch",
+            "mainClass": "BinaryTree.PrintCousions",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SerializeDeserialize",
+            "request": "launch",
+            "mainClass": "BinaryTree.SerializeDeserialize",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch constructBTFromGivenString",
+            "request": "launch",
+            "mainClass": "BinaryTree.constructBTFromGivenString",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch diagonalTraOfBT",
+            "request": "launch",
+            "mainClass": "BinaryTree.diagonalTraOfBT",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch preorderToBST",
+            "request": "launch",
+            "mainClass": "BinaryTree.preorderToBST",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch spiralTra",
+            "request": "launch",
+            "mainClass": "BinaryTree.spiralTra",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuySellWithKTrans",
+            "request": "launch",
+            "mainClass": "BuySellWithKTrans",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LIS",
+            "request": "launch",
+            "mainClass": "CP.algos.LIS",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch b",
+            "request": "launch",
+            "mainClass": "CP.b",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch c",
+            "request": "launch",
+            "mainClass": "CP.c",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch contest",
+            "request": "launch",
+            "mainClass": "CP.contest",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch d",
+            "request": "launch",
+            "mainClass": "CP.d",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ceil",
+            "request": "launch",
+            "mainClass": "Ceil",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CuttingARod",
+            "request": "launch",
+            "mainClass": "CuttingARod",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dijkestra",
+            "request": "launch",
+            "mainClass": "Dijkestra",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch EulerianPathDirectedEdgesAdjacencyList",
+            "request": "launch",
+            "mainClass": "EulerianPathDirectedEdgesAdjacencyList",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMedianOfTwoArr",
+            "request": "launch",
+            "mainClass": "FindMedianOfTwoArr",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch kleeAlgo_maxLineSeg",
+            "request": "launch",
+            "mainClass": "GeometricAlgo.kleeAlgo_maxLineSeg",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Graph",
+            "request": "launch",
+            "mainClass": "Graph",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch HamiltonianCycle",
+            "request": "launch",
+            "mainClass": "HamiltonianCycle",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Map",
+            "request": "launch",
+            "mainClass": "HashMaps.Map",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Heap",
+            "request": "launch",
+            "mainClass": "Heap.Heap",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch HuffmanCoding",
+            "request": "launch",
+            "mainClass": "Heap.HuffmanCoding",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianofStream",
+            "request": "launch",
+            "mainClass": "Heap.MedianofStream",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch pq",
+            "request": "launch",
+            "mainClass": "Heap.pq",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch HistogramArea",
+            "request": "launch",
+            "mainClass": "HistogramArea",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadane",
+            "request": "launch",
+            "mainClass": "Kadane",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knapsack",
+            "request": "launch",
+            "mainClass": "Knapsack",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knight",
+            "request": "launch",
+            "mainClass": "Knight",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LCS",
+            "request": "launch",
+            "mainClass": "LCS",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestIndepensentSet",
+            "request": "launch",
+            "mainClass": "LargestIndepensentSet",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseInSize",
+            "request": "launch",
+            "mainClass": "LinkedList.ReverseInSize",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPrefixWhichIsAlsoSuffix",
+            "request": "launch",
+            "mainClass": "LongestPrefixWhichIsAlsoSuffix",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubsequence",
+            "request": "launch",
+            "mainClass": "LongestSubsequence",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MST",
+            "request": "launch",
+            "mainClass": "MST",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ManacharsAlgosLongestPallStr",
+            "request": "launch",
+            "mainClass": "ManacharsAlgosLongestPallStr",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixMultiplication",
+            "request": "launch",
+            "mainClass": "MatrixMultiplication",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixReachEnd",
+            "request": "launch",
+            "mainClass": "MatrixReachEnd",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxAreaOfTriangle",
+            "request": "launch",
+            "mainClass": "MaxAreaOfTriangle",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxDIff",
+            "request": "launch",
+            "mainClass": "MaxDIff",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumPathSumInMatrix",
+            "request": "launch",
+            "mainClass": "MaximumPathSumInMatrix",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianSortedMat",
+            "request": "launch",
+            "mainClass": "MedianSortedMat",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeKSortedArr",
+            "request": "launch",
+            "mainClass": "MergeKSortedArr",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinSumFromArray",
+            "request": "launch",
+            "mainClass": "MinSumFromArray",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinTrans",
+            "request": "launch",
+            "mainClass": "MinTrans",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch NQueen",
+            "request": "launch",
+            "mainClass": "NQueen",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAbstraction1",
+            "request": "launch",
+            "mainClass": "OOPS.Abstraction.TestAbstraction1",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Child",
+            "request": "launch",
+            "mainClass": "OOPS.Child",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch InctanceofExample",
+            "request": "launch",
+            "mainClass": "OOPS.InstanceOf.InctanceofExample",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestInterface3",
+            "request": "launch",
+            "mainClass": "OOPS.MultipleInHeritance.TestInterface3",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "Permutation",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CSUMQ",
+            "request": "launch",
+            "mainClass": "PrefixSum.CSUMQ",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DigitPrimes",
+            "request": "launch",
+            "mainClass": "PrefixSum.DigitPrimes",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixDiamond",
+            "request": "launch",
+            "mainClass": "PrefixSum.MatrixDiamond",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScanlineAlgoUseCase",
+            "request": "launch",
+            "mainClass": "PrefixSum.ScanlineAlgoUseCase",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Two_D_arr",
+            "request": "launch",
+            "mainClass": "PrefixSum.Two_D_arr",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch bulletPrbm",
+            "request": "launch",
+            "mainClass": "PrefixSum.bulletPrbm",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch cumulativeSum",
+            "request": "launch",
+            "mainClass": "PrefixSum.cumulativeSum",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch streetLight",
+            "request": "launch",
+            "mainClass": "PrefixSum.streetLight",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RabinKrapPatternSearch",
+            "request": "launch",
+            "mainClass": "RabinKrapPatternSearch",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomPickWeight",
+            "request": "launch",
+            "mainClass": "RandomPickWeight",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RatInMaze",
+            "request": "launch",
+            "mainClass": "RatInMaze",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RollingHashFunction",
+            "request": "launch",
+            "mainClass": "RollingHashFunction",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinRange",
+            "request": "launch",
+            "mainClass": "SegmentTree.MinRange",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RangeSum",
+            "request": "launch",
+            "mainClass": "SegmentTree.RangeSum",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MINstack",
+            "request": "launch",
+            "mainClass": "Stack.MINstack",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainStack",
+            "request": "launch",
+            "mainClass": "Stack.mainStack",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringMultiplication",
+            "request": "launch",
+            "mainClass": "StringMultiplication",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeCal",
+            "request": "launch",
+            "mainClass": "TimeCal",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TravellingSalesManI",
+            "request": "launch",
+            "mainClass": "TravellingSalesManI",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrieImplement",
+            "request": "launch",
+            "mainClass": "Trie.TrieImplement",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnboundedKnapscak",
+            "request": "launch",
+            "mainClass": "UnboundedKnapscak",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnionFindAlgo",
+            "request": "launch",
+            "mainClass": "UnionFindAlgo",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParenthesis",
+            "request": "launch",
+            "mainClass": "ValidParenthesis",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeightedJobScheduling",
+            "request": "launch",
+            "mainClass": "WeightedJobScheduling",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordBreak",
+            "request": "launch",
+            "mainClass": "WordBreak",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordWrap",
+            "request": "launch",
+            "mainClass": "WordWrap",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZAlgos",
+            "request": "launch",
+            "mainClass": "ZAlgos",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch coinChange",
+            "request": "launch",
+            "mainClass": "coinChange",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch coinPickGame",
+            "request": "launch",
+            "mainClass": "coinPickGame",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch commonValueInMatrix",
+            "request": "launch",
+            "mainClass": "commonValueInMatrix",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch countPallindromicSubsecq",
+            "request": "launch",
+            "mainClass": "countPallindromicSubsecq",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch generator",
+            "request": "launch",
+            "mainClass": "fileHandeling.generator",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch minRevofBrackets",
+            "request": "launch",
+            "mainClass": "minRevofBrackets",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiplicationTable",
+            "request": "launch",
+            "mainClass": "multiplicationTable",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch nextGreatetInteger",
+            "request": "launch",
+            "mainClass": "nextGreatetInteger",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch nthpermutation",
+            "request": "launch",
+            "mainClass": "nthpermutation",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixMul",
+            "request": "launch",
+            "mainClass": "numberTheory.MatrixMul",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch fib",
+            "request": "launch",
+            "mainClass": "numberTheory.fib",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch moduloInverse",
+            "request": "launch",
+            "mainClass": "numberTheory.moduloInverse",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch nextGreatestInt",
+            "request": "launch",
+            "mainClass": "numberTheory.nextGreatestInt",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindromeInt",
+            "request": "launch",
+            "mainClass": "numberTheory.palindromeInt",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeFact",
+            "request": "launch",
+            "mainClass": "numberTheory.primeFact",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch packageTester",
+            "request": "launch",
+            "mainClass": "packageTester",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch paintersPartition",
+            "request": "launch",
+            "mainClass": "paintersPartition",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch rearrangeNoAdjSame",
+            "request": "launch",
+            "mainClass": "rearrangeNoAdjSame",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch recPrintWords",
+            "request": "launch",
+            "mainClass": "recPrintWords",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch repElementsfill",
+            "request": "launch",
+            "mainClass": "repElementsfill",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch repeatAndMiss",
+            "request": "launch",
+            "mainClass": "repeatAndMiss",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch sarie",
+            "request": "launch",
+            "mainClass": "sarie",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch searchInRotatedArray",
+            "request": "launch",
+            "mainClass": "searchInRotatedArray",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch smallestSubstring",
+            "request": "launch",
+            "mainClass": "smallestSubstring",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch smallestWindow",
+            "request": "launch",
+            "mainClass": "smallestWindow",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch stock2Diff",
+            "request": "launch",
+            "mainClass": "stock2Diff",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch strMUL",
+            "request": "launch",
+            "mainClass": "strMUL",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch subsequenceWithSumK",
+            "request": "launch",
+            "mainClass": "subsequenceWithSumK",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch sudoko",
+            "request": "launch",
+            "mainClass": "sudoko",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumOfTwoLargeNumbers",
+            "request": "launch",
+            "mainClass": "sumOfTwoLargeNumbers",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        }
+    ]
+}

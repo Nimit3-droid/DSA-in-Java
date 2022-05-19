@@ -20,10 +20,8 @@ public class DetectCycleUndiGphDegree {
                 int curr=queue.poll();
                 visited[curr] = true;
                 ArrayList<Integer> list=adj.get(curr);
-                for(int x : list) {
-                    
-                    degreeCount.replace(x, degreeCount.get(x)==1?1:degreeCount.get(x)-1);
-                    
+                for(int x : list) {                    
+                    degreeCount.replace(x, degreeCount.get(x)==1?1:degreeCount.get(x)-1);                 
                 }
             }
         }

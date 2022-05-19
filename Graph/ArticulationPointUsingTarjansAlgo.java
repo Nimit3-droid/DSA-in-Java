@@ -21,7 +21,6 @@ public class ArticulationPointUsingTarjansAlgo {
         }
         System.out.println();
     }
-
     private void dfsUtil(int i,int parent, ArrayList<ArrayList<Integer>> adj, int timer, int[] dis, int[] low, boolean[] ap) {
         dis[i]=timer;
         low[i]=timer;

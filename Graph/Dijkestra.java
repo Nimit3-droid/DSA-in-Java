@@ -14,6 +14,7 @@ public class Dijkestra{
         }
         return minIndex;
     }
+    //n^2
     public static int [] shortestPath(int mat[][],int root){
         int n=mat.length;
         int spt[]=new int[n];
@@ -24,7 +25,7 @@ public class Dijkestra{
             int u=findMin(spt,found);
             found[u]=true;
             for(int j=0;j<n;j++){
-                if(found[j]==false && mat[u][j]!=0&& spt[u]!=Integer.MAX_VALUE && mat[u][j]+spt[u]<spt[j]){
+                if(found[j]==false && mat[u][j]!=0 && spt[u]!=Integer.MAX_VALUE && mat[u][j]+spt[u]<spt[j]){
                     spt[j]=mat[u][j]+spt[u];
                 }
             }

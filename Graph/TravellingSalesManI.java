@@ -26,12 +26,8 @@ public class TravellingSalesManI {
         // Scanner sc= new Scanner(System.in);
         // n=sc.nextInt();
         n=4;
-        allvisited=(1<<n) -1;
-        // int dist[][] = {{0, 20, 42, 25},
-        //     {20, 0, 30,24 },
-        //     {42, 30, 0,10 },
-        //     {25, 34, 10, 0},
-        // };
+        allvisited=(1<<n) -1;//1 1 1 1
+
         int dist[][] = {{0, 1, 15, 6},
             {2, 0, 7,3 },
             {9, 6, 0,12 },

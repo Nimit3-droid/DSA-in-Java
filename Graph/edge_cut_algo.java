@@ -16,6 +16,7 @@ public class edge_cut_algo {
             }
         }
     }
+    
     public void dfsUtil(ArrayList<ArrayList<Integer>> adj,int i,int parent, int dis[],  int low[],int timer) {
         dis[i]=timer;
         low[i]=timer;

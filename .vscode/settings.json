@@ -8,5 +8,9 @@
         "Backtracking",
         "Array",
         ""
-    ]
+    ],
+    "files.associations": {
+        "vector": "cpp",
+        "xiosbase": "cpp"
+    }
 }

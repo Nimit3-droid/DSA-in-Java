@@ -5,8 +5,8 @@ public class TimeCal {
         long start = System.nanoTime();
         // some time passes
         long end = System.nanoTime();
-        long elapsedTime = end - start; 
-        System.out.println(elapsedTime);
+        // long elapsedTime = end - start; 
+        System.out.println(end - start);
 
         
     }

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class UnionFindAlgo {
     int V;
     int E;
@@ -35,8 +37,9 @@ public class UnionFindAlgo {
         }else if(set[x].rank>set[y].rank){
             set[y].parent=x;
         }else{
-            set[x].parent=y;
-            set[y].rank++;
+            //x <- y
+            set[y].parent=x;
+            set[x].rank++;
         }
     }
     public  boolean detectCycle(int n){
@@ -66,7 +69,6 @@ public class UnionFindAlgo {
         | \
         |  \
         1---2 */
- 
         // add edge 0-1
         graph.edge[0].src = 0;
         graph.edge[0].dest = 1;

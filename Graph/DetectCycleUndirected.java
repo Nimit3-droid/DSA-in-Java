@@ -1,5 +1,6 @@
 import java.util.*;
 public class DetectCycleUndirected {
+    
     public boolean dfs(ArrayList<ArrayList<Integer>> adj,int n){
         boolean visited[] = new boolean[n];
         for(int i=0;i<n;i++){

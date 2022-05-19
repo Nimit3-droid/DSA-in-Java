@@ -7,7 +7,7 @@ public class FindMedianOfTwoArr {
         int low=0, high=n;
         while(low<=high) {
             int mid1=(low+high)/2;
-            int mid2=(n+m+1)/2 - mid1;  // works for booth even and odd
+            int mid2=(n+m+1)/2 - mid1;  // works for both even and odd
             int l1=mid1==0?Integer.MIN_VALUE:arr1[mid1-1];
             int l2= mid2==0?Integer.MIN_VALUE:arr2[mid2-1];
             int r1=mid1==n?Integer.MAX_VALUE:arr1[mid1];

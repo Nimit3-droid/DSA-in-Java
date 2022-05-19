@@ -80,7 +80,7 @@ class MST {
 
 	public static void main(String[] args)
 	{
-		/* Let us create the following graph
+		/* Let us create the  following graph
 		2 3
 		(0)--(1)--(2)
 		| / \ |

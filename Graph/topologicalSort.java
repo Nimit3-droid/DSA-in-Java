@@ -3,7 +3,7 @@ public class topologicalSort{
 //     Time Complexity: O(V+E). 
 // The above algorithm is simply DFS with an extra stack. So time complexity is the same as DFS which is.
 // Auxiliary space: O(V). 
-// The extra space is needed for the stack.
+// The extra space  is needed for the stack.
     public void dfs(ArrayList<ArrayList<Integer>> adj,int s,Stack<Integer> stack,boolean isVisited[]){
         isVisited[s]=true;
         Iterator<Integer> it=adj.get(s).iterator();

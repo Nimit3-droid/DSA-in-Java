@@ -24,7 +24,7 @@ public class UnionFindAlgoToDetectCycleInUndirected {
             int v2=Findparent(parent,graph[i].dest);
             if(v1==v2){
                 return true;
-            }
+            } 
             union(parent,v1,v2);
         }
         return false;

@@ -36,6 +36,7 @@ public class AlienDict{
         KahnTopoSort ob=new KahnTopoSort();
         ArrayList<Integer> ans=ob.tpsort(mat);
         for(int c : ans){
+            
             System.out.print((char)(c+'a'));
         }
     }

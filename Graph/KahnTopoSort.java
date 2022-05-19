@@ -1,7 +1,8 @@
 import java.util.*;
 public class KahnTopoSort {
 //     time Complexity: O(V+E). 
-// The outer for loop will be executed V number of times and the inner for loop will be executed E number of times.
+// The outer for loop will be executed V number
+// of times and the inner for loop will be executed E number of times.
 // Auxiliary Space: O(V). 
     public void addMinEdges(Queue<Integer> q,int arr[]){
         for(int i=0;i<arr.length;i++){
@@ -29,7 +30,7 @@ public class KahnTopoSort {
                     if(indegree[neigh]==0) q.add(neigh);
                 }
 
-        }
+        } 
         return ans;
     }
 }

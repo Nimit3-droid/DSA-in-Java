@@ -17,7 +17,7 @@ public class DetectBackedge {
         return false;
     }
     public boolean dfsutil(ArrayList<ArrayList<Integer>> adj,boolean visited[],boolean recursionStack[], int i){
-        //true=>cycle
+        //true=>cycle.
         //if a visited node is already present in recursion stack it means we hava a back edge => cycle
         if(recursionStack[i]==true){
             return true;
