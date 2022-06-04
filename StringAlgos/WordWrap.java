@@ -1,5 +1,5 @@
-import java.io.File;
-import java.io.FileWriter;
+// import java.io.File;
+// import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -43,8 +43,8 @@ public class WordWrap {
                    //cost[i][j] = width - previousWord - currentWord  -1;
                    cost[i][j] = cost[i][j-1] - words[j].length() - 1; 
                 }
-           }
-           
+            }
+            
            for(int i=0; i < words.length; i++){
                for(int j=i; j < words.length; j++){
                    if(cost[i][j] < 0){
@@ -54,18 +54,19 @@ public class WordWrap {
                    }
                }
             }
-            FileWriter fw = new FileWriter(new File("output.txt"));
+            // FileWriter fw = new FileWriter(new File("output.txt"));
            for(int i = 0;i<words.length;i++){
                for(int j = 0;j< words.length; j++){
                    if(cost[i][j]==Integer.MAX_VALUE) {
-                       fw.write("- ");
+                    System.out.println("- ");
+                    //    fw.write("- ");
                        continue;
                    }
-                   fw.write(cost[i][j]+" ");
-                // System.out.println(cost[i][j]+" ");
+                //    fw.write(cost[i][j]+" ");
+                System.out.println(cost[i][j]+" ");
                }
-               fw.write("\n");
-            //    System.out.println();
+            //    fw.write("\n");
+               System.out.println();
            }
         //    1 - - - - 
         //    0 16 4 - - 
@@ -92,12 +93,14 @@ public class WordWrap {
                }
            }
            for(int k=0;k<words.length;k++){
-               fw.write(minCost[k]+" === "+result[k]+"\n");
+               System.out.println(minCost[k]+" === "+result[k]);
+            //    fw.write(minCost[k]+" === "+result[k]+"\n");
            }
            int i = 0;
            int j;
-           fw.write("Minimum cost is " + minCost[0]+"\n");
-           fw.close();
+           System.out.println("Minimum cost is " + minCost[0]);
+        //    fw.write("Minimum cost is " + minCost[0]+"\n");
+        //    fw.close();
         //    System.out.println("Minimum cost is " + minCost[0]);
         //    System.out.println("\n");
            //finally put all words with new line added in 
@@ -116,7 +119,7 @@ public class WordWrap {
        }
        
        public static void main(String args[]) throws IOException{
-           Scanner sc = new Scanner(new File("input.txt"));        
+           Scanner sc = new Scanner(System.in);    
            int n = sc.nextInt();
            String words1[] = new String[n];
            for(int i=0;i<n;i++) {
@@ -125,10 +128,10 @@ public class WordWrap {
            int k=sc.nextInt();
            sc.close();
            WordWrap awl = new WordWrap();
-           FileWriter fw = new FileWriter(new File("output.txt"),true);
-           fw.write(awl.justify(words1, k));
-           fw.close();
-        //    System.out.println(awl.justify(words1, k));
+        //    FileWriter fw = new FileWriter(new File("output.txt"),true);
+        //    fw.write(awl.justify(words1, k));
+        //    fw.close();
+           System.out.println(awl.justify(words1, k));
        }
    
 }

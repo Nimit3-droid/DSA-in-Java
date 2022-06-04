@@ -34,14 +34,16 @@ class Mystack{
         }else{
             int m=2*x-min;
             stack.push(m);
-            min=m;
+            min=x;
         }
 
     }
     public int pop(){
         if(stack.isEmpty()) return -1;
         if(stack.peek()<min){
-            return 2*min-stack.pop();
+            int premin=min;
+            min=2*min-stack.pop();
+            return premin;
         }
         return stack.pop();
 

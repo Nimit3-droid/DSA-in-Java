@@ -17,6 +17,7 @@ public class moduloInverse {
         for(int i=1; i<m; i++){
             fw.write(i + " "+inv[i]+"\n");
         }
+        
         fw.close();
         sc.close();
     }

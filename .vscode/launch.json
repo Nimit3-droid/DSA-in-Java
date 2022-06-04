@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch genPrimes",
+            "request": "launch",
+            "mainClass": "numberTheory.genPrimes",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeneratePrimes",
+            "request": "launch",
+            "mainClass": "numberTheory.GeneratePrimes",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch inversionCount",
+            "request": "launch",
+            "mainClass": "inversionCount",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedArray",
+            "request": "launch",
+            "mainClass": "MergeSortedArray",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
             "name": "Launch E2",
             "request": "launch",
             "mainClass": "CP.CPLIST.Prime.E2",

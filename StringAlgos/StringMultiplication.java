@@ -15,7 +15,7 @@ public class StringMultiplication {
 		String s2= new StringBuffer(num2).reverse().toString();
 
 		int[] m = new int[s1.length() + s2.length()];
-
+//-------------------------------------Main logic---------------------------
 		// Go from right to left in num1
 		for (int i = 0; i < s1.length(); i++) {
 			// Go from right to left in num2
@@ -28,7 +28,7 @@ public class StringMultiplication {
 			}
             if(c!=0) m[i+j]=c;
 		}
-        
+  //============================================================================      
         String ans= "";
         for(int i = m.length-1;i>=0; i--) {
             if(ans=="" && m[i]==0) continue;
