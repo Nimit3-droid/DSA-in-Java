@@ -24,7 +24,6 @@ public class RollingHashFunction {
         FileWriter fw = new FileWriter(new File("output.txt"));
         int n=sc.nextInt();
         for(int i = 0; i <n;i++){
-
             fw.write(getHash(sc.next())+"\n");
         }
         sc.close();

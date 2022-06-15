@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "CP.GFG",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ct",
+            "request": "launch",
+            "mainClass": "CP.ct",
+            "projectName": "JavaInterviewQuestions_3495b3a0"
+        },
+        {
+            "type": "java",
             "name": "Launch genPrimes",
             "request": "launch",
             "mainClass": "numberTheory.genPrimes",

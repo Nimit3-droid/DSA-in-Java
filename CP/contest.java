@@ -2,8 +2,10 @@ package CP;
 
 import java.util.*;
 import java.io.*;
+import java.lang.*;
 
 public class contest {
+    static long primeMod=999999999999989L;
     static class pair {
         int x, y, p, q;
 
@@ -23,6 +25,16 @@ public class contest {
         pair(int x, int y) {
             this.x = x;
             this.y = y;
+        }
+        public boolean equals(Object o) {
+            if(o instanceof pair){
+                pair p=(pair)o;
+                return x==p.x && y==p.y;
+            }
+            return false;
+        }
+        public int hashCode() {
+            return (Long.valueOf(x).hashCode())*31 + (Long.valueOf(y).hashCode());
         }
     }
 
@@ -229,22 +241,60 @@ public class contest {
          //i starts from 0
         return a ^ (1<<i) ;
     }
+    public static long removeRightMostSetBit(long a){
+        //right most set bit = a&(-a)
+        return a-(a&(-a));
+    }
+    public static long addRightMostSetBit(long a){
+        //right most set bit = a&(-a)
+        return a+(a&(-a));
+    }
 
-    public static void main(String[] args) {
-        FastReader sc = new FastReader();
-        String s= sc.next();
-        Stack<Character> st=new Stack<Character>();
-        for(char ch:s.toCharArray()){
-            if(st.isEmpty() || st.peek()!=ch){
-                st.push(ch);
+    public static int[] buildLPS(String str) {
+        int n=str.length();
+
+        int[] lps = new int[n];
+        int i=1;
+        int len=0;
+        lps[0]=0;
+        while(i<n){
+            if(str.charAt(i)==str.charAt(len)){
+                len++;
+                lps[i]=len;
+                i++;
+            }else if(len==0){
+                lps[i]=0;
+                i++;
             }else{
-                st.pop();
+                len=lps[len-1];
             }
         }
-        
-        System.out.println(st.isEmpty()?"YES":"NO");
-
+        return lps;
     }
+
+
+    public static void main(String[] args) throws IOException {
+        
+        FastReader sc = new FastReader();
+        int t=sc.nextInt();
+        while(t--!=0){
+            int n = sc.nextInt();
+            int arr1[]=new int[n];
+            for(int i=0;i<n;i++){
+                arr1[i]=sc.nextInt();
+            }
+            
+            
+
+            
+            
+
+            
+        }
+        
+    }
+
+    
 }
 
 

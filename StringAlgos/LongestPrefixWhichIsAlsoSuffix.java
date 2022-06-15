@@ -35,15 +35,37 @@ public class LongestPrefixWhichIsAlsoSuffix {
             }else if(j>0){
                 j=lps[j-1]+1;
             }else{
-                //lps[i]=-1;
+                lps[i]=-1;
                 i++;
             }
         }
+        //do +1 to get length
         return lps;
+    }
+    static int[] kmpDPgfg(String s) {
+        // code here
+        int n=s.length();
+        int i=1;
+        int len=0;
+        int lpsArr[]=new int[n];
+        lpsArr[0]=0;
+        while(i<n){
+            if(s.charAt(i)==s.charAt(len)){
+                len++;
+                lpsArr[i]=len;
+                i++;
+            }else if(len==0){
+                lpsArr[i]=0;
+                i++;
+            }else{
+                len=lpsArr[len-1];
+            }
+            
+        }
+        return lpsArr;
     }
     public static void KMP_Patten(String str,String pattern) throws IOException{
         int lps[]=kmpDP(pattern);
-        FileWriter fw = new FileWriter(new File("output.txt"));
         for(int i=0;i<lps.length;i++){
             System.out.print(lps[i] +" ");
         }
@@ -55,8 +77,7 @@ public class LongestPrefixWhichIsAlsoSuffix {
                 j++;
             
                 if(j==pattern.length()){
-                    
-                    fw.write("Pattern found at index "+ (i-1)+"\n");
+                    System.out.print("Pattern found at index "+ (i-1)+"\n");
                     j=lps[j-1]+1;
                     
                 }
@@ -65,15 +86,16 @@ public class LongestPrefixWhichIsAlsoSuffix {
             }else{
                 i++;
             }
-        }
-        fw.close();
-        
+        }        
     }
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(new File("input.txt"));
+        Scanner sc = new Scanner(System.in);
         String str=sc.nextLine();
-        String pat=sc.nextLine();
-        KMP_Patten(str,pat);
+        // String pat=sc.nextLine();
+        // KMP_Patten(str,pat);
+        kmpDPgfg(str);
+        System.out.println();
+        kmpDP(str);
 
         sc.close();
     }
